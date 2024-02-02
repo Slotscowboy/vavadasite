@@ -1,0 +1,5 @@
+User-agent: 
+Crawl-delay: 1
+Host: https://vavada2024.netlify.app/
+Disallow: /ipv.html
+Sitemap: https://vavada2024.netlify.app/sitemap.xml
