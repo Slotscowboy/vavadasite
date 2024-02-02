@@ -994,29 +994,6 @@
         }
       }
     </script>
-  <script type="text/javascript">
-    let dropdownList = document.getElementsByClassName('choose-lang-list')[0];
-    let dropdownBtn = document.getElementsByClassName('choose-lang-button')[0];
-
-    dropdownBtn.onclick = function (e) {
-      dropdownList.classList.add('show');
-    };
-
-    document.addEventListener('click', outsideClickListener);
-
-    function outsideClickListener({ target }) {
-      if (!dropdownBtn.contains(target)) dropdownList.classList.remove('show');
-    };
-  </script>
-
-  <script type="text/javascript">
-    let paymentBtn = document.getElementsByClassName('footer__payments-selector')[0];
-    let paymentList = document.getElementsByClassName('footer__payments-list')[0];
-    paymentBtn.onclick = function (e) {
-      paymentList.classList.toggle('x-expand-block-opened');
-      paymentBtn.classList.toggle('x-expand-block-opened');
-    };
-  </script>
 </head>
 
 <body>
