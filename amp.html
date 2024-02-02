@@ -45,8 +45,24 @@
   <script src="js/amp-accordion-0.1.js" async></script>
   <script src="js/amp-carousel-0.2.js" async></script>
   <style amp-custom>
-  /* Ваши пользовательские стили из файла css/styles.css здесь */
+  .menu {
+    list-style-type: none;
+    list-style-position: inside;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: inherit;
+  }
 </style>
+
   <style amp-custom="">
     /* Шрифты */
     @font-face {
